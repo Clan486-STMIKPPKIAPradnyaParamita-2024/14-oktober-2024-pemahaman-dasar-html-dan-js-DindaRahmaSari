@@ -3,6 +3,12 @@
 // Hasil Yang Diharapkan : Perkenalkan nama saya Naulan, umur saya 19, domisili saya Malang
 
 // -------- Tulis Kode Kamu Disini (Nomor 1) --------
+let nama = "Dinda Rahma";
+let umur = 20; 
+let domisili = "Malang";
+
+console.log("Halo, perkenalkan nama saya " + nama + ", umur saya " + umur + " domisili saya " + domisili + ".");
+
 
 // -------- ------ --------
 
@@ -11,6 +17,13 @@
 // Hasil Yang Diharapkan : 35
 
 // -------- Tulis Kode Kamu Disini (Nomor 2) --------
+let panjang = 5;
+let lebar = 7;
+
+let luasPersegiPanjang = panjang * lebar;
+
+console.log(luasPersegiPanjang);
+
 
 // -------- ------ --------
 
@@ -20,6 +33,14 @@
 
 // -------- Tulis Kode Kamu Disini (Nomor 3) --------
 
+let panjang = 5;
+let lebar = 7;
+
+let luasPersegiPanjang = panjang * lebar;
+
+console.log(luasPersegiPanjang);
+
+
 // -------- ------ --------
 
 // Soal 04 :
@@ -28,6 +49,15 @@
 
 // -------- Tulis Kode Kamu Disini (Nomor 4) --------
 
+let waktuNyala = 5; // detik
+let jumlahNyalakan = 48;
+
+let totalDetik = waktuNyala * jumlahNyalakan;
+let totalMenit = totalDetik / 60;
+
+console.log("Dibutuhkan waktu " + totalMenit + " menit untuk menyala sebanyak " + jumlahNyalakan + " kali.");
+
+
 // -------- ------ --------
 
 // Soal 05 :
@@ -35,6 +65,13 @@
 // Hasil Yang Diharapkan : Total belanja saya adalah 150000.
 
 // -------- Tulis Kode Kamu Disini (Nomor 5) --------
+let hargaBarang = 50000; 
+let jumlahBeli = 3;
+
+let totalBelanja = hargaBarang * jumlahBeli;
+
+console.log("Total belanja saya adalah " + totalBelanja + ".");
+
 
 // -------- ------ --------
 
@@ -42,7 +79,15 @@
 // Buatlah program untuk menghitung keliling lingkaran. Simpan jari-jari lingkaran di variabel dan gunakan rumus keliling = 2 * π * r. Cetak kelilingnya.
 // Hasil Yang Diharapkan : Keliling lingkaran adalah 62.8
 
+
 // -------- Tulis Kode Kamu Disini (Nomor 6) --------
+let jariJari = 10; 
+let keliling = 2 * Math.PI * jariJari;
+
+console.log("Keliling lingkaran adalah " + keliling.toFixed(1)); 
+
+
+
 
 // -------- ------ --------
 
@@ -51,6 +96,14 @@
 // Hasil Yang Diharapkan : Angka 7 adalah ganjil
 
 // -------- Tulis Kode Kamu Disini (Nomor 7) --------
+let angka = 7;
+
+if (angka % 2 === 0) {
+    console.log("Angka " + angka + " adalah genap.");
+} else {
+    console.log("Angka " + angka + " adalah ganjil.");
+}
+
 
 // -------- ------ --------
 
@@ -59,5 +112,13 @@
 // Hasil Yang Diharapkan : Rata-rata nilai adalah 80
 
 // -------- Tulis Kode Kamu Disini (Nomor 8) --------
+let nilai1 = 75;
+let nilai2 = 85;
+let nilai3 = 80;
+
+let rataRata = (nilai1 + nilai2 + nilai3) / 3;
+
+console.log("Rata-rata nilai adalah " + rataRata.toFixed(0) + ".");
+
 
 // -------- ------ --------
